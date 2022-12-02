@@ -1,7 +1,7 @@
 {
-  "name": "connectnode",
+  "name": "employee_tracker",
   "version": "1.0.0",
-  "description": "Node connection code",
+  "description": "A Command line application that will provide a tabled representation user with prompts to answer so that it can generate a structure by answering the prompts.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "mysql2": "^2.2.5"
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.2.5",
+    "console.table": "^0.10.0"
   }
 }
